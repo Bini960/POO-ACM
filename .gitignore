@@ -1,0 +1,20 @@
+﻿# Java
+*.class
+*.log
+target/
+bin/
+out/
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# SO / OneDrive
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
