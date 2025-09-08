@@ -61,8 +61,8 @@ public class Tablero {
     }
 
     /**
-     * Mapea id → símbolo de dos dígitos "00", "01", "02", ...
-     * Esto garantiza lectura clara (y alineación) en cualquier consola.
+     * Mapea id: símbolo de dos dígitos "00", "01", "02", ...
+     * Esto garantiza lectura clara en cualquier consola.
      */
     private String mapearSimbolo(int id) {
         return String.format("%02d", id);

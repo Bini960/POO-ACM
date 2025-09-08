@@ -2,7 +2,7 @@
  * Proyecto: Juego de Memoria (Laboratorio 2)
  * Autor: Andrés Castro Morales 25039
  * Fecha de creación: 2025-09-07
- * Descripción: ÚNICA clase con Input/Output (Scanner/println).
+ * Descripción: clase con Input/Output (Scanner/println).
  */
 
 import java.util.InputMismatchException;
@@ -14,7 +14,7 @@ public class Main {
 
     public static void main(String[] args) {
         boolean jugarOtra = true;
-        while (jugarOtra) {           // Bucle controlado para permitir reiniciar (sin while(true))
+        while (jugarOtra) {           // Bucle controlado para permitir reiniciar
             jugarUnaPartida();
             jugarOtra = preguntarReinicio();
         }
@@ -47,7 +47,6 @@ public class Main {
             Jugador j2 = juego.getJugadores()[1];
             mostrar(vista.renderPuntajes(j1, j2));
 
-            // Lectura defensiva: coordenadas en formato "fila col"
             int[] p1 = pedirCoordenada("Primera ficha - ingresa fila y columna");
             int[] p2 = pedirCoordenada("Segunda ficha - ingresa fila y columna");
 

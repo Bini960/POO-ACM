@@ -5,7 +5,6 @@
  */
 public class Ficha {
 
-    /** Símbolo visible de la ficha (emoji o etiqueta textual). */
     private final String simbolo;
 
     /** true cuando el jugador la destapa momentáneamente. */
